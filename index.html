@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>University Landing Page</title>
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css"
+        integrity="sha384-zIaWifL2YFF1qaDiAo0JFgsmasocJ/rqu7LKYH8CoBEXqGbb9eO+Xi3s6fQhgFWM" crossorigin="anonymous">
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="index.html"><img src="pictures/logo.png" alt="logo" class="logo"></a>
+            <div class="nav-links" id="navLinks">
+
+                <ul>
+                    <i class="fa-solid fa-x" onclick="hideMenu()"></i>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">COURSE</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">CONTACT</a></li>
+
+                </ul>
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24" viewBox="0 0 172 172"
+                class="fa-solid" onclick="showMenu()">
+                <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+                    stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
+                    font-family="none" font-weight="none" font-size="none" text-anchor="none"
+                    style="mix-blend-mode: normal">
+                    <path d="M0,172v-172h172v172z" fill="none"></path>
+                    <g fill="#ffffff">
+                        <path
+                            d="M14.33333,35.83333v14.33333h143.33333v-14.33333zM14.33333,78.83333v14.33333h143.33333v-14.33333zM14.33333,121.83333v14.33333h143.33333v-14.33333z">
+                        </path>
+                    </g>
+                </g>
+            </svg>
+        </nav>
+        <div class="banner">
+            <h1>World largest university</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore amet perspiciatis nam possimus
+                cumque
+                magnam ullam iusto animi, nesciunt dolorum</p>
+            <a href=""><button>Visit Us</button></a>
+        </div>
+    </header>
+    <!-- course -->
+    <section class="course">
+        <h2>Courses we offer</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem maxime quaerat deserunt consequatur
+            ipsa mollitia.</p>
+        <div class="row">
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus officiis maxime quisquam. Velit
+                    cupiditate earum quas? Eveniet quaerat labore delectus quae iste.</p>
+            </div>
+            <div class="course-col">
+                <h3>Degree</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus officiis maxime quisquam. Velit
+                    cupiditate earum quas.</p>
+            </div>
+            <div class="course-col">
+                <h3>Post Gradiation</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus officiis maxime quisquam. Velit
+                    cupiditate earum quas.</p>
+            </div>
+        </div>
+    </section>
+    <!----------- campus ----------------->
+    <section class="campus">
+        <h2>Our Global Campus</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto adipisci sint rem error quibusdam, quis
+            dignissimos dolorem, alias blanditiis recusandae provident. Dolore quibusdam dolorem voluptatibus?</p>
+        <div class="row">
+            <div class="campus-col">
+                <img src="pictures/london.png" alt="building">
+                <div class="layer">
+                    <h3>London</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="pictures/newyork.png" alt="building">
+                <div class="layer">
+                    <h3>New York</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="pictures/washington.png" alt="building">
+                <div class="layer">
+                    <h3>Washington</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!----facilities -->
+    <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi, laudantium suscipit obcaecati
+            consequatur, esse dolores cumque molestiae harum sapiente culpa temporibus vitae amet dicta?</p>
+        <div class="row">
+            <div class="facilities-col">
+                <img src="pictures/library.png" alt="library">
+                <h3>World clsas library</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, voluptate.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="pictures/basketball.png" alt="library">
+                <h3>Largest Playground</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, voluptate.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="pictures/cafeteria.png" alt="library">
+                <h3>Tasty and Healthy Food</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, voluptate.</p>
+            </div>
+        </div>
+
+    </section>
+    <!-- Testimonials -->
+    <section class="testimonials">
+        <h2>What our students say</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam incidunt quam saepe voluptatibus, nemo
+            reiciendis atque commodi pariatur vitae autem.</p>
+        <div class="row">
+            <div class="testimonial-col">
+                <img src="pictures/user1.jpg" alt="person">
+            </div>
+        </div>
+    </section>
+    <!-- for toggle menu -->
+    <script>
+        const navLinks = document.querySelector("#navLinks");
+        const showMenu = () => {
+            navLinks.style.right = "0";
+        };
+        const hideMenu = () => {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
